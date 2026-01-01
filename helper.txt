@@ -1,0 +1,17 @@
+-----------------------Git Commands----------------------
+
+
+
+
+
+
+
+
+
+
+-------------------Node Commands and concepts-------------
+1. command to create or intialise react app --> npm create vite@latest project_name/.
+2. command to upgrade to super fast comiler --> npm i -D @vitejs/plugin-react-swc
+    and then add import react from '@vitejs/plugin-react-swc' in vite.config.js
+
+
