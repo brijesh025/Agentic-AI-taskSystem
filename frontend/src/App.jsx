@@ -6,7 +6,7 @@ import Tickets from './pages/Tickets'
 import Login from './pages/Login'
 import Signup from './pages/Signup'
 import Admin from './pages/Admin'
-
+import { Routes, Route } from 'react-router-dom'
 function App() {
 
   return (

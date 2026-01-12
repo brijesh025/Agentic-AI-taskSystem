@@ -19,7 +19,11 @@ const CheckAuth = ({ children, isProtected }) => {
       }
     }
   });
-  return <div>CheckAuth</div>;
+  return (
+    <div>
+      {loading ? (<div>loading...</div>):children}
+    </div>
+  )
 };
 
 export default CheckAuth;
